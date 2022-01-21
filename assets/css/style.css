@@ -13,7 +13,7 @@
 }
 
 .container-item {
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     text-align: center;
 }
 
@@ -22,5 +22,23 @@
 }
 
 .font-custom {
+    color: white;
+}
+
+.btn-green {
+    background: #419744;
+}
+
+.btn-green:hover {
+    background: #327434;
+    color: white;
+}
+
+.btn-booking {
+    background: #1f3975;
+}
+
+.btn-booking:hover {
+    background: #101e3d;
     color: white;
 }
