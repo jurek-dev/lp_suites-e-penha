@@ -1,0 +1,26 @@
+.navbar-custom {
+    background: orange;
+    justify-content: space-between;
+}
+
+
+.container-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    height: auto;
+}
+
+.container-item {
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.cooming-soon {
+    font-size: 12pt;
+}
+
+.font-custom {
+    color: white;
+}
