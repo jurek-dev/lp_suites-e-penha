@@ -18,7 +18,7 @@
 }
 
 .equips-custom {
-    text-align: left;
+    text-align: center;
 }
 
 .custom-text{
@@ -45,6 +45,7 @@
 
 .btn-booking {
     background: #1f3975;
+    margin-bottom: 1em;
 }
 
 .btn-booking:hover {
