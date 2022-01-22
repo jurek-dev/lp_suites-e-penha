@@ -13,7 +13,7 @@
 }
 
 .container-item {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     text-align: center;
 }
 
@@ -54,5 +54,19 @@
 
 .btn-custom {
     font-size: 9pt;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
+}
+
+.span-custom {
+    font-size: 8pt;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+.bg-yellow {
+    background: #fde03a;
+}
+
+.bg-gray {
+    background: #95969a;
 }

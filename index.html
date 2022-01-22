@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
             <div class="container-fluid">
                 <img src="assets/img/logo_pousada.png" width="150px"/>
               <a class="navbar-brand display-1" href="#">Suítes e Penha</a>
@@ -23,13 +23,13 @@
                     <a class="btn btn-success" href="#reserve" role="button">Reservar agora!</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Hospedagem</a>
+                    <a class="nav-link disabled" href="#">Café da manhã</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">O Parque</a>
+                    <a class="nav-link" href="#beto-carrero-world">O Parque</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="#beaches">Praias</a>
                   </li>
                 </ul>
               </div>
@@ -37,13 +37,13 @@
           </nav>
     </header>
     <main>
-        <div id="reserve" class="container-fluid bg-warning container-custom">
+        <div id="reserve" class="container-fluid bg-yellow container-custom">
           <div class="container-item">
             <img src="assets/img/icon_person.png" alt="Personagem pensando" width="150px">
           </div>
             <div class="container-item">
                 <h1 class="display-4">Por que reservar conosco?</h1>
-                <p>Temos os preços mais acessíveis da região!</p>
+                <p>Temos os preços mais acessíveis da região, confira abaixo algumas opções de reserva:</p>
                 <a class="btn btn-booking font-custom" href="http://www.booking.com/Share-pXFEDJ" role="button">
                   <img src="assets/img/icons/booking.png" alt="" srcset="" width="32">
                   Reservar em Booking.com
@@ -51,7 +51,7 @@
             </div>
             <div class="container-item">
               <a class="btn btn-success whatsapp-button font-custom" href="https://api.whatsapp.com/send?phone=5547997312531&text=Desejo%20fazer%20uma%20reserva!" role="button">
-                <img src = "assets/img/icons/whatsapp.png" alt="My Happy SVG0" width="26"/>
+                <img src = "assets/img/icons/whatsapp.png" alt="My Happy SVG0" width="21"/>
                   Falar com o Anfritrião
               </a>
             </div>
@@ -66,18 +66,18 @@
           </div>
       </div>
 
-      <div class="container-fluid bg-warning container-custom">
+      <div id="beto-carrero-world" class="container-fluid bg-yellow container-custom">
         <div class="container-item">
-          <img src="assets/img/logo_betocarrero.png" alt="Logotipo do Beto Carrero World" width="150px">
+          <img src="assets/img/icons/icon_bcw.png" alt="Logotipo do Beto Carrero World">
         </div>
         <div class="container-item">
             <h1 class="display-4">Beto Carrero World</h1>
-            <p>O maior parque da américa latina a menos de 350 metros de distância!</p>
+            <p>O maior parque temático da américa latina a menos de 350 metros de distância!</p>
             <a class="btn btn-primary" target="_blank" href="https://www.betocarrero.com.br/" role="button">Ir para o site do parque</a>
         </div>
     </div>
 
-    <div class="container-fluid bg-dark container-custom font-custom">
+    <div id="beaches" class="container-fluid bg-dark container-custom font-custom">
       <div class="container-item">
         <img src="assets/img/icons/icon_cocconut.png" alt="Imagem de uma água de coco." width="120px"/>
       </div>
@@ -86,35 +86,42 @@
         <p>Estamos localizados próximos das melhores praias da região! Tem como ficar melhor!? Veja só a distância:</p>
         <ul class="list-custom">
 
-          <li class="list-item-custom">Praia de Armação do Itapocorói a 400 m</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <li class="list-item-custom"><img src="assets/img/icons/icon_fav.png" alt="Estrela do mar" width="15px"> Praia de Armação do Itapocorói a 400 m</li>
+          <p class="span-custom">Sugerido pelo anfitrião!</p>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/52tryAxu2n2TGKeN7" role="button" target="_blank">Ver no mapa</a>
 
           <li class="list-item-custom">Praia do Manguinho a 750 m</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/k3hEep5KpStW77tH6" role="button" target="_blank">Ver no mapa</a>
 
           <li class="list-item-custom">Praia da Cancela a 1,1 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/xJRUUG9RwvN94yxz9" role="button" target="_blank">Ver no mapa</a>
 
-          <li class="list-item-custom">Praia do Trapiche a 1,2 km</li>
-          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/jFPyV4CNj2xec2F99" role="button" target="_blank">Ver no mapa</a>
+          <li class="list-item-custom"><img src="assets/img/icons/icon_fav.png" alt="Estrela do mar" width="15px"> Praia do Trapiche a 1,2 km</li>
+          <p class="span-custom">Sugerido pelo anfitrião!</p>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/GzfCyMsx64ArDjRa9" role="button" target="_blank">Ver no mapa</a>
           
           <li class="list-item-custom">Praia Vermelha a 1,8 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
-
-          <li class="list-item-custom">Praia da Encosta a 1,9 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/yxnUUaqdv3NgnGaa7" role="button" target="_blank">Ver no mapa</a>
 
           <li class="list-item-custom">Praia do Monge a 2 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/ymFXKeBxvSTy1LT98" role="button" target="_blank">Ver no mapa</a>
 
           <li class="list-item-custom">Praia do Poá a 2,1 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/ZBcNMkJfvzEcNqgC7" role="button" target="_blank">Ver no mapa</a>
 
           <li class="list-item-custom">Praia Grande a 2,1 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/og35d2cCBETWzP6z6" role="button" target="_blank">Ver no mapa</a>
 
           <li class="list-item-custom">Praia da Paciência a 2,5 km</li>
-          <a class="btn btn-primary btn-custom" href="alterar" role="button" target="_blank">Ver no mapa</a>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/8nJSiAM4yYCBLPfc7" role="button" target="_blank">Ver no mapa</a>
+
+          <li class="list-item-custom"><img src="assets/img/icons/icon_fav.png" alt="Estrela do mar" width="15px"> Praia da Bacia da Vovó a 5,9 km</li>
+          <p class="span-custom">Sugerido pelo anfitrião!</p>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/Cz2rAdsbdgNdFJLJ9" role="button" target="_blank">Ver no mapa</a>
+
+          <li class="list-item-custom"><img src="assets/img/icons/icon_fav.png" alt="Estrela do mar" width="15px"> Praia Alegre a 6,1 km</li>
+          <p class="span-custom">Sugerido pelo anfitrião!</p>
+          <a class="btn btn-primary btn-custom" href="https://goo.gl/maps/zd3Pa17yJV8zvTGk9" role="button" target="_blank">Ver no mapa</a>
 
         </ul>
       </div>
