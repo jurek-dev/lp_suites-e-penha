@@ -1,8 +1,8 @@
-.navbar-custom {
-    background: orange;
-    justify-content: space-between;
+:root {
+    /* Paleta de cores */
+    --default-color-yellow: #fde03a;
+    --default-color-grey: #95969a;
 }
-
 
 .container-custom {
     display: flex;
@@ -15,6 +15,15 @@
 .container-item {
     padding-bottom: 0.5em;
     text-align: center;
+}
+
+.equips-custom {
+    text-align: left;
+}
+
+.custom-text{
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .cooming-soon {
@@ -64,9 +73,9 @@
 }
 
 .bg-yellow {
-    background: #fde03a;
+    background: var(--default-color-yellow);
 }
 
 .bg-gray {
-    background: #95969a;
+    background: var(--default-color-grey);
 }
