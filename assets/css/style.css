@@ -92,3 +92,26 @@
 .carousel-box {
     margin-bottom: 5em;
 }
+
+.fa-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    bottom: 30px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.fa-whatsapp:hover {
+    background-color: #1da74f;
+}
+
+.my-float {
+    margin-top: 5px;
+}
