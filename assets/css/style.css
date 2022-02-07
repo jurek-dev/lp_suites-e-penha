@@ -80,3 +80,7 @@
 .bg-gray {
     background: var(--default-color-grey);
 }
+
+.carousel-custom {
+    text-align: left;
+}
