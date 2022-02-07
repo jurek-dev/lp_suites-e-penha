@@ -84,3 +84,11 @@
 .carousel-custom {
     text-align: left;
 }
+
+.img-carousel {
+    height: 400px;
+}
+
+.carousel-box {
+    margin-bottom: 5em;
+}
