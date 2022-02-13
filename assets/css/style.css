@@ -2,6 +2,7 @@
     /* Paleta de cores */
     --default-color-yellow: #fde03a;
     --default-color-grey: #95969a;
+    --whatsapp-color: #25d366;
 }
 
 .container-custom {
@@ -99,7 +100,7 @@
     height: 60px;
     right: 30px;
     bottom: 30px;
-    background-color: #25d366;
+    background-color: var(--whatsapp-color);
     color: #FFF;
     border-radius: 50px;
     text-align: center;
