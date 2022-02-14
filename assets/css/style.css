@@ -46,7 +46,7 @@
 
 .btn-booking {
     background: #1f3975;
-    margin-bottom: 1em;
+    margin-bottom: 0.2em;
 }
 
 .btn-booking:hover {
@@ -58,6 +58,10 @@
     list-style-type: none;
     text-align: left;
 }
+
+.booking-list-margin {
+    margin-left: 0.6em;
+} 
 
 .list-item-custom {
     font-size: 12pt;
@@ -115,4 +119,9 @@
 
 .my-float {
     margin-top: 0.2em;
+}
+
+p.rate {
+    margin-bottom: 1em;
+    font-size: 10pt;
 }
